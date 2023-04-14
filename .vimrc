@@ -41,3 +41,10 @@ noremap <C-p> :GFiles<Cr>
 colorscheme hybrid
 set background=dark
 
+" https://shapeshed.com/vim-netrw/
+" https://vonheikemen.github.io/devlog/tools/using-netrw-vim-builtin-file-explorer
+nnoremap <C-l> :Explore<Cr>
+let g:netrw_banner = 1
+let g:netrw_liststyle = 3
+let g:netrw_winsize = 25
+
