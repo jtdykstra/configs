@@ -16,13 +16,14 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=/opt/homebrew/opt/fzf
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'Lokaltog/vim-powerline'
-Plugin 'junegunn/fzf'
-Plugin 'ycm-core/YouCompleteMe'
+Plugin 'junegunn/fzf.vim'
+" Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 
